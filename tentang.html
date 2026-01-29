@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Web 1 Farhan</title>
+
+    <link rel="stylesheet" href="style/style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    
+    <header class="header">
+        <a href="Index.html" class="logo">Logo</a>
+
+        <nav class="navbar">
+            <a href="Index.html">Beranda</a>
+            <a href="portfolio.html">Portfolio</a>
+            <a href="tentang.html" class="active">Tentang</a>
+        </nav>
+    </header>
+
+        <!-- Section Home (Judul) -->
+        <section class="home">
+                    <div class="home-content">
+                        <h2 style="color: #00abf0; font-size: 32px;">Selamat Datang di Halaman Tentang</h2>
+                        <p style="font-size: 18px; margin-top: 16px; max-width: 600px;">Di halaman ini kamu bisa mengenal saya lebih jauh dan menghubungi saya melalui form kontak di bawah.</p>
+                    </div>
+        </section>
+
+        <!-- Section Tentang -->
+            <!-- Section Tentang & Form dalam 2 kolom -->
+            <section style="padding: 60px 10%; background: #081b29; color: #ededed; display: flex; gap: 40px; flex-wrap: wrap; justify-content: center; align-items: flex-start;">
+                <!-- Kolom Kiri: Penjelasan -->
+                <div style="flex: 1 1 350px; min-width: 300px; max-width: 500px;">
+                    <h2 style="color: #00abf0; font-size: 32px; margin-bottom: 20px;">Tentang Saya</h2>
+                    <p style="font-size: 18px; max-width: 100%;">Halo! Saya Farhan, seorang pengembang web yang suka belajar mandiri dan bereksperimen dengan berbagai teknologi web. Saya percaya bahwa pembelajaran tidak pernah berhenti dan selalu berusaha meningkatkan skill saya di bidang HTML, CSS, dan JavaScript.</p>
+                </div>
+                <!-- Kolom Kanan: Form Kontak -->
+                <div style="flex: 1 1 350px; min-width: 300px; max-width: 500px;">
+                    <h2 style="color: #00abf0; font-size: 32px; margin-bottom: 20px;">Hubungi Saya</h2>
+                    <form style="margin-top: 20px; display: flex; flex-direction: column; gap: 20px;">
+                        <input type="text" name="nama" placeholder="Nama" required style="padding: 12px; border-radius: 8px; border: 2px solid #00abf0; background: transparent; color: #ededed; font-size: 16px;">
+                        <input type="email" name="email" placeholder="Email" required style="padding: 12px; border-radius: 8px; border: 2px solid #00abf0; background: transparent; color: #ededed; font-size: 16px;">
+                        <textarea name="pesan" placeholder="Pesan" required rows="5" style="padding: 12px; border-radius: 8px; border: 2px solid #00abf0; background: transparent; color: #ededed; font-size: 16px;"></textarea>
+                        <button type="submit" style="padding: 12px; border-radius: 8px; border: 2px solid #00abf0; background: #00abf0; color: #081b29; font-size: 16px; font-weight: 700; cursor: pointer; transition: .3s;">Kirim</button>
+                    </form>
+                </div>
+            </section>
+
+
+</body>
+</html>
